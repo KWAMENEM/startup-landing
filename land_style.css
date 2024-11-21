@@ -1,0 +1,51 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/header.jpg'); 
+    background-size: cover; /* This makes the image cover the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+    margin: 0; /* Removes default margin */
+}
+
+
+h1{
+    color: aliceblue;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.space{
+    height: 150px;
+}
+
+hr{
+    color: orangered;
+    border-color: orangered;
+    border-width: 3px;
+    max-width: 65px;
+    margin-left: 615px;
+}
+
+.btn{
+    
+    color: whitesmoke;
+    background-color: orangered;
+    border: 3px solid orangered;
+    border-radius: 300px;
+    padding: 7px;
+    font-weight: 350;
+    font-size: 200;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: orangered;
+    border: 4px solid orangered;
+    cursor: pointer;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
